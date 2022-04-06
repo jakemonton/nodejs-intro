@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-intro",
+  "version": "1.0.0",
+  "description": "Install node with [node version manager (NVM)](https://github.com/creationix/nvm#installation). NVM was created by the community and not the Nodejs foundation. However, it is the recommended approach. After installing nvm, use nvm to install the lates version of Nodejs. ```bash nvm install node # node is an alias for the latest version nvm alias default node ``` If this fails, or you want to install nodejs from nodejs source, [then go here](https://nodejs.org/en/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "level": "^8.0.0"
+  }
+}
